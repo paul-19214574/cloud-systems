@@ -1,5 +1,11 @@
 # cloud-systems
 
+## Demo
+
+  A working version of the application is available here.
+  
+  https://public.tableau.com/profile/paul.doherty#!/vizhome/Covid19DataWorkbook/Covid19
+
 ## Files
 
 | File                           | Purpose                                                                          |
@@ -59,5 +65,5 @@
  
     See instructions available here (https://cloud.google.com/bigquery/docs/loading-data-cloud-storage-csv)
     
- 8.
+ 8. Using Tableau Desktop connect to Google BigQuery and load dataset into Tableau. Configure worksheets, build desktop and deploy to Tablea Public
    
