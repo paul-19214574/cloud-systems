@@ -39,4 +39,4 @@
    FIELDS TERMINATED BY '|';
    ```
    
-   `LOAD DATA INPATH 'staged-data' INTO TABLE covid_19_data`
+   `LOAD DATA INPATH '/staged-data' INTO TABLE covid_19_data`
