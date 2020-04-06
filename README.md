@@ -53,3 +53,9 @@
    
    `gsutil cp final-data.txt gs://cloud-systems-assignment-1/final-data.txt`
    
+ 7. Load data from Google Cloud Storage into BigQuery
+ 
+    See instructions available here (https://cloud.google.com/bigquery/docs/loading-data-cloud-storage-csv)
+    
+ 8.
+   
