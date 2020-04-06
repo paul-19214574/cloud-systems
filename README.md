@@ -26,17 +26,8 @@
  
    `beeline -u jdbc:hive2://localhost:10000/default`
    
-   ```
-   CREATE TABLE covid_19_data (
-     region STRING,
-     country STRING,
-     timing STRING,
-     confirmed INT,
-     deaths INT,
-     recovered INT
-   )
-   ROW FORMAT DELIMITED 
-   FIELDS TERMINATED BY '|';
-   ```
+   `!run CreateAndPopulateHiveTable.hql`
    
-   `LOAD DATA INPATH '/staged-data' INTO TABLE covid_19_data`
+   and then to verify that the table has been created and poplulated correctly:
+   
+   `SELECT * FROM covid_19_data LIMIT 10`
