@@ -65,5 +65,5 @@
  
     See instructions available here (https://cloud.google.com/bigquery/docs/loading-data-cloud-storage-csv)
     
- 8. Using Tableau Desktop connect to Google BigQuery and load dataset into Tableau. Configure worksheets, build desktop and deploy to Tablea Public
+ 8. Using Tableau Desktop connect to Google BigQuery and load dataset into Tableau. Configure worksheets, build dashboard and deploy to Tablea Public
    
