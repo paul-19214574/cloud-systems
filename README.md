@@ -49,7 +49,7 @@
    
    `!run CreateAndPopulateHiveTable.hql`
    
-   and then to verify that the table has been created and poplulated correctly:
+   and then to verify that the table has been created and processed correctly:
    
    `SELECT * FROM covid_19_data LIMIT 10`
 
