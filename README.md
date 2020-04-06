@@ -22,11 +22,11 @@
  
    `pig FormatCovid19Data.pig`
 
-5. Connect to Hive using Beeline Hive Client and Create the table to store the Covid-19 data.
+5. Connect to Hive using Beeline Hive Client and Create the table to store the Covid-19 data, and then load the data.
  
    `beeline -u jdbc:hive2://localhost:10000/default`
    
- ```
+   ```
    CREATE TABLE covid_19_data (
      region STRING,
      country STRING,
@@ -35,6 +35,8 @@
      deaths INT,
      recovered INT
    )
-   row format delimited 
-   fields terminated by '|';
- ```
+   ROW FORMAT DELIMITED 
+   FIELDS TERMINATED BY '|';
+   ```
+   
+   `LOAD DATA INPATH 'staged-data' INTO TABLE covid_19_data`
