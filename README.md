@@ -5,6 +5,8 @@
 | File                           | Purpose                                                                          |
 | ------------------------------ | -------------------------------------------------------------------------------- |
 | Covid19DataHiveSelect10Row.jpg | Output of HQL script to select the first 10 rows in the HIVE table               |
+| Covid19DataWorkbook.pptx       | Powerpoint file containing the Covid charts which are visible in Tableau Public  |
+| Covid19DataWorkbook.twbx       | Tableau Desktop workbook file containing Covid-19 workbook files                 |
 | CreateAndPopulateHiveTable.hql | HQL script to create the HIVE table and to populate it with Covid-19 data        |
 | CustomMappings.py              | Pig UDF Python file containing custom mapping code (for countries and dates)     |
 | DownloadCovid19Data.py         | Downloads the Covid-19 data files from github                                    |
