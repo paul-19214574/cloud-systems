@@ -15,4 +15,5 @@
 3. Copy the prepared data from the local directory to HDFS
 
    hadoop fs -mkdir /prepared-data
+   
    hadoop fs -put ../prepared-data/* /prepared-data
