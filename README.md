@@ -31,3 +31,12 @@
    and then to verify that the table has been created and poplulated correctly:
    
    `SELECT * FROM covid_19_data LIMIT 10`
+
+6. Migrate the data from HDFS to Google Cloud Storage
+  
+   `beeline --showHeader=true --outputformat=dsv -u jdbc:hive2://localhost:10000/default -e "SELECT * from covid_19_data;" > final-data.txt`
+   
+   and then copy the final data to GFS
+   
+   `gsutil cp final-data.txt gs://cloud-systems-assignment-1/final-data.txt`
+   
