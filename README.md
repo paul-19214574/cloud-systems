@@ -34,7 +34,7 @@
 
 6. Migrate the data from HDFS to Google Cloud Storage
   
-   `beeline --showHeader=true --outputformat=dsv -u jdbc:hive2://localhost:10000/default -e "SELECT * from covid_19_data;" > final-data.txt`
+   `beeline --showHeader=true --outputformat=dsv -u jdbc:hive2://localhost:10000/default -e "SELECT * FROM covid_19_data;" > final-data.txt`
    
    and then copy the final data to GFS
    
